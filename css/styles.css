@@ -3,6 +3,9 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  text-align: center;
+  align-content: center;
+  height: 100vh;
 }
 
 h1 {
@@ -14,4 +17,29 @@ h1 {
 
 #result .red {
   color: #e74c3c;
+}
+
+#result p{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#userInput{
+  height: 25px;
+  padding: 5px;
+}
+
+div{
+  margin: 20px;
+}
+
+#countdown {
+  color: red;
+}
+
+#restart{
+  height: 35px;
+  width: 130px;
+  background-color: #67b9e4;
+  color: white;
 }
